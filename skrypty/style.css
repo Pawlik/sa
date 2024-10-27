@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+h1 {
+    color: #ff3366;
+}
+
+.message {
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#hiddenMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff3366;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
